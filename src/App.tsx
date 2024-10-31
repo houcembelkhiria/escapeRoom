@@ -8,6 +8,7 @@ import Scenario from './pages/Scenario';
 import HomePage from './pages/HomePage';
 import Reservation from './pages/Reservation'; 
 import Cannibal from './pages/Cannibal';
+import PirateEscapeRoom from './pages/PirateEscapeRoom';
 import Test from './pages/test';  
 import Loading from './pages/loading'; // Import your Loading component
 import './styles/EscapeRoom.css'; // Keep your CSS styling
@@ -38,6 +39,8 @@ const App: React.FC = () => {
                         <Route path="/scenario" element={<Scenario />} />
                         <Route path="/reservation" element={<Reservation />} />
                         <Route path="/test" element={<Test />} />
+                        <Route path="/:id" element={<PirateEscapeRoom />} />
+
                     </Routes>
                 </>
             )}

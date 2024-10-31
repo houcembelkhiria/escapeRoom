@@ -38,7 +38,8 @@ const cannibalEscapeRoom: React.FC = () => {
     </ul>
     <div className='textBottomcannibal'>
       <p className="cannibal-description">
-      Vous vous réveillez dans le noir et la seule chose que vous pouvez sentir est une voix « je veux jouer à un jeux » Vous réalisez que vous êtes enfermé dans la pièce de Jigcannibal, face à une épreuve qui peut vous couter  vie. Vous avez soixante minutes pour vous échapper. « Vivre ou mourir à vous de choisir »      </p>
+      Vous vous réveillez dans le noir et la seule chose que vous pouvez sentir est une voix « je veux jouer à un jeux » Vous réalisez que vous êtes enfermé dans la pièce de Jigcannibal, face à une épreuve qui peut vous couter  vie. Vous avez soixante minutes pour vous échapper. « Vivre ou mourir à vous de choisir »      
+      </p>
       </div>
     </div>
     );
